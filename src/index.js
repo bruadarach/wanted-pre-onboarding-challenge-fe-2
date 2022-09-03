@@ -23,7 +23,7 @@ function CREATE({ id, content, isFinished, category, tags }) {}
  * This function will display the list(s) of task(s).
  * Based on ID, it is possible to search a certain task.
  * @param {number} [id] A selected task based on ID will be displayed. Otherwise, all tasks will be displayed.
- * @return {Todo|TArray.<Todo>} An Array of a selected task based on ID will be returned. Otherwise, an Array of all tasks will be returned.
+ * @return {Todo|Array.<Todo>} An Array of a selected task based on ID will be returned. Otherwise, an Array of all tasks will be returned.
  */
 function READ() {}
 
